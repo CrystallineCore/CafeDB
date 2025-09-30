@@ -113,18 +113,41 @@ class CafeDB:
             else:
                 return value == condition
     
+
     def _build_condition_function(self, filters: Dict[str, Any]) -> Callable:
+        or_clause = filters.get('$or')
+        and_filters = {key: value for key, value in filters.items() if key != '$or'}
+
         def condition_func(row: dict) -> bool:
-            for field, condition in filters.items():
+            for field, condition in and_filters.items():
                 if field not in row:
                     return False
-                
                 if not self._match_condition(row[field], condition):
                     return False
-            
+
+            if or_clause:
+                if not isinstance(or_clause, list):
+                    raise ValueError("$or operator requires a list of conditions.")
+                
+                or_match_found = False
+                for sub_filter in or_clause:
+                    sub_filter_passes = True
+                    for field, condition in sub_filter.items():
+                        if field not in row or not self._match_condition(row[field], condition):
+                            sub_filter_passes = False
+                            break 
+                    
+                    if sub_filter_passes:
+                        or_match_found = True
+                        break 
+                
+                if not or_match_found:
+                    return False
+
             return True
         
         return condition_func
+
 
     def insert(self, table_name: str, row: dict):
         if table_name not in self._data:
@@ -307,6 +330,16 @@ if __name__ == "__main__":
         {"age": {"$gte": 45}},
         {"category": "senior", "discount": 0.1}
     )
+    print("\n8. Users from London who are either young or high-scorers:")
+    results = db.select("users", {
+        "city": "London",
+        "$or": [
+        {"age": {"$lt": 30}},
+        {"score": {"$gte": 85}}
+    ]
+    })
+    for user in results:
+        print(f"   - {user['name']} (Age: {user['age']}, Score: {user['score']})")
     
     print("\n=== TABLE STATISTICS ===")
     stats = db.stats("users")
