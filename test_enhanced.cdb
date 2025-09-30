@@ -1,0 +1,220 @@
+{
+  "_meta": {
+    "tables": [
+      "users"
+    ],
+    "created": "2025-09-30T19:20:08.637943"
+  },
+  "users": [
+    {
+      "name": "Alice Johnson",
+      "age": 28,
+      "city": "Paris",
+      "email": "alice@gmail.com",
+      "score": 85,
+      "bio": "Python developer"
+    },
+    {
+      "name": "Bob Smith",
+      "age": 34,
+      "city": "London",
+      "email": "bob@yahoo.com",
+      "score": 72,
+      "bio": "Java programmer"
+    },
+    {
+      "name": "Anna Miller",
+      "age": 22,
+      "city": "Berlin",
+      "email": "anna@gmail.com",
+      "score": 91,
+      "bio": "Data scientist with Python"
+    },
+    {
+      "name": "Charlie Brown",
+      "age": 45,
+      "city": "Paris",
+      "email": "charlie@hotmail.com",
+      "score": 68,
+      "bio": "Manager and team lead",
+      "category": "senior",
+      "discount": 0.1
+    },
+    {
+      "name": "Amy Wilson",
+      "age": 31,
+      "city": "London",
+      "email": "amy@gmail.com",
+      "score": 88,
+      "bio": "Frontend developer"
+    },
+    {
+      "name": "Alice Johnson",
+      "age": 28,
+      "city": "Paris",
+      "email": "alice@gmail.com",
+      "score": 85,
+      "bio": "Python developer"
+    },
+    {
+      "name": "Bob Smith",
+      "age": 34,
+      "city": "London",
+      "email": "bob@yahoo.com",
+      "score": 72,
+      "bio": "Java programmer"
+    },
+    {
+      "name": "Anna Miller",
+      "age": 22,
+      "city": "Berlin",
+      "email": "anna@gmail.com",
+      "score": 91,
+      "bio": "Data scientist with Python"
+    },
+    {
+      "name": "Charlie Brown",
+      "age": 45,
+      "city": "Paris",
+      "email": "charlie@hotmail.com",
+      "score": 68,
+      "bio": "Manager and team lead",
+      "category": "senior",
+      "discount": 0.1
+    },
+    {
+      "name": "Amy Wilson",
+      "age": 31,
+      "city": "London",
+      "email": "amy@gmail.com",
+      "score": 88,
+      "bio": "Frontend developer"
+    },
+    {
+      "name": "Alice Johnson",
+      "age": 28,
+      "city": "Paris",
+      "email": "alice@gmail.com",
+      "score": 85,
+      "bio": "Python developer"
+    },
+    {
+      "name": "Bob Smith",
+      "age": 34,
+      "city": "London",
+      "email": "bob@yahoo.com",
+      "score": 72,
+      "bio": "Java programmer"
+    },
+    {
+      "name": "Anna Miller",
+      "age": 22,
+      "city": "Berlin",
+      "email": "anna@gmail.com",
+      "score": 91,
+      "bio": "Data scientist with Python"
+    },
+    {
+      "name": "Charlie Brown",
+      "age": 45,
+      "city": "Paris",
+      "email": "charlie@hotmail.com",
+      "score": 68,
+      "bio": "Manager and team lead",
+      "category": "senior",
+      "discount": 0.1
+    },
+    {
+      "name": "Amy Wilson",
+      "age": 31,
+      "city": "London",
+      "email": "amy@gmail.com",
+      "score": 88,
+      "bio": "Frontend developer"
+    },
+    {
+      "name": "Alice Johnson",
+      "age": 28,
+      "city": "Paris",
+      "email": "alice@gmail.com",
+      "score": 85,
+      "bio": "Python developer"
+    },
+    {
+      "name": "Bob Smith",
+      "age": 34,
+      "city": "London",
+      "email": "bob@yahoo.com",
+      "score": 72,
+      "bio": "Java programmer"
+    },
+    {
+      "name": "Anna Miller",
+      "age": 22,
+      "city": "Berlin",
+      "email": "anna@gmail.com",
+      "score": 91,
+      "bio": "Data scientist with Python"
+    },
+    {
+      "name": "Charlie Brown",
+      "age": 45,
+      "city": "Paris",
+      "email": "charlie@hotmail.com",
+      "score": 68,
+      "bio": "Manager and team lead",
+      "category": "senior",
+      "discount": 0.1
+    },
+    {
+      "name": "Amy Wilson",
+      "age": 31,
+      "city": "London",
+      "email": "amy@gmail.com",
+      "score": 88,
+      "bio": "Frontend developer"
+    },
+    {
+      "name": "Alice Johnson",
+      "age": 28,
+      "city": "Paris",
+      "email": "alice@gmail.com",
+      "score": 85,
+      "bio": "Python developer"
+    },
+    {
+      "name": "Bob Smith",
+      "age": 34,
+      "city": "London",
+      "email": "bob@yahoo.com",
+      "score": 72,
+      "bio": "Java programmer"
+    },
+    {
+      "name": "Anna Miller",
+      "age": 22,
+      "city": "Berlin",
+      "email": "anna@gmail.com",
+      "score": 91,
+      "bio": "Data scientist with Python"
+    },
+    {
+      "name": "Charlie Brown",
+      "age": 45,
+      "city": "Paris",
+      "email": "charlie@hotmail.com",
+      "score": 68,
+      "bio": "Manager and team lead",
+      "category": "senior",
+      "discount": 0.1
+    },
+    {
+      "name": "Amy Wilson",
+      "age": 31,
+      "city": "London",
+      "email": "amy@gmail.com",
+      "score": 88,
+      "bio": "Frontend developer"
+    }
+  ]
+}
