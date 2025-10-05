@@ -90,6 +90,7 @@ pip install -e .
 - String operations (`$contains`, `$startswith`, `$endswith`)
 - Regular expression matching
 - List membership testing (`$in`, `$nin`)
+- Logical Operators (`$or`)
 
 ### 🔧 **Developer Friendly**
 - Verbose mode for debugging
